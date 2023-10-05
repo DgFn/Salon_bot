@@ -348,7 +348,7 @@ class FMS():
 
 
 
-bot = telebot.TeleBot('6067492832:AAHQS3M04prSw6gOmyaGnV6qJineUw6JZ0s')
+bot = telebot.TeleBot('token')
 
 #хороший тон, вызов функции после ее описания
 @bot.message_handler(content_types = ['text'])
